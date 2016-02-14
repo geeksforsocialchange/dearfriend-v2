@@ -16,8 +16,22 @@ function buildMetalsmith (callback) {
   // Metalsmith instance and options
   var metalsmith = new Metalsmith('.').clean(false)
   var plugins = config.metalsmith.plugins || {}
+  var dateFormatter = require('metalsmith-date-formatter'); // Doesn't hey support the CLI so have to add manually
   metalsmith.source(config.paths.pages)
   metalsmith.destination(config.paths.build)
+
+  metalsmith.use(dateFormatter({
+    dates: [
+      {
+        key: 'start',
+        format: 'dddd MMMM Do YYYY, h:mm a'
+      },
+      {
+        key: 'end',
+        format: 'h:mm a'
+      }
+    ]
+  }))
 
   // For each plugin
   Object.keys(plugins).forEach(function (key) {
@@ -27,6 +41,8 @@ function buildMetalsmith (callback) {
     // Add plugins to Metalsmith
     metalsmith.use(plugin(options))
   })
+
+
 
   // Rename file extensions
   metalsmith.use(rename([
@@ -43,6 +59,7 @@ function buildMetalsmith (callback) {
     browserSync.reload()
     callback()
   })
+
 }
 
 // Metalsmith task

@@ -25,11 +25,15 @@
          "html": true
        },
        "metalsmith-permalinks": {
-         "pattern": "blog/:title"
+         "pattern": ":collection/:title"
        },
       "metalsmith-collections": {
         "posts": {
           "pattern": "blog/!(index).md"
+        },
+        "events": {
+          "pattern": "events/!(index).md",
+          "sortBy": "date"
         }
       },
       "metalsmith-discover-helpers": {

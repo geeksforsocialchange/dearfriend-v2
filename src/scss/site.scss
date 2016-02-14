@@ -13,11 +13,11 @@ $papercolor: #EAE2CF;
 
 // Partials
 @import 'partials/base';
-@import 'partials/container';
+// @import 'partials/container';
 @import 'partials/typography';
 @import 'partials/header';
 @import 'partials/footer';
-@import 'partials/grid-test';
+// @import 'partials/grid-test';
 
 body {
   background-color: #EAE2CF;
@@ -37,15 +37,6 @@ ul.nolist {
   padding: 0;
 }
 
-header {
-  margin: 1em 0 0 0;
-  text-align: center;
-}
-
-.logo {
-  height: 250px
-}
-
 .main {
   margin: auto;
   padding: 1em;
@@ -61,22 +52,8 @@ header {
   }
 }
 
-footer {
-  border-top: 1px solid lighten($fontcolor, 50%);
-  margin-top: 4em;
-}
-
-.sponsors {
-  li {
-    @include span(46% center);
-    margin-bottom: 1em;
-    @include mq($from: m) {
-      @include span(33% center);
-    }
-  }
-  &+ p {
-    clear: both;
-  }
+.event__container {
+  margin-bottom: 3em;
 }
 
 address {

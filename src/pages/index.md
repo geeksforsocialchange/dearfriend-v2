@@ -5,8 +5,6 @@ layout: default.hbs
 permalink: false
 ---
 
-# Dear Friend
-
 Dear Friend is a letter-writing project celebrating women who stood up for others, past and present. Officially launching 8th March for International Women's Day 2016.
 
 ## Write a letter
@@ -40,12 +38,3 @@ Come and learn more about these amazing women who spoke to gay teens in the midd
 *In Performance Space 1, on the ground floor in Archives+. [Eventbrite booking link](https://www.eventbrite.co.uk/e/dear-friend-i-think-im-gay-can-you-help-me-tickets-20986204302).*
 
 *This workshop is for over 14s only.*
-
-
-## Get in touch
-
-Check our [Twitter](http://twitter.com/dearfriendmcr) for inspiring women to write about.
-
-Get in touch by email at [info@dearfriend.org.uk](mailto:info@dearfriend.org.uk).
-
-Dear Friend is proud to be part of Wonder Women Manchester 2016. Find out more [on Creative Tourist's website](http://www.creativetourist.com/festivals-and-events/wonderwomen/).
