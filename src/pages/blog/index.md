@@ -1,6 +1,6 @@
 ---
-title: Blog Index Test
-description: Test Description
+title: Dear Friend
+description: test
 layout: blog.hbs
 permalink: false
 ---
