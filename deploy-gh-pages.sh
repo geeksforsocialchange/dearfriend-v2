@@ -6,10 +6,10 @@ set -e
 # Define variables depending on the branch
 if [[ $TRAVIS_BRANCH == 'master' ]]
   then
-    REPO="github.com/kimadactyl/dearfriend-v2"
+    REPO="github.com/kimadactyl/dearfriend.org.uk"
     DOMAIN="dearfriend.org.uk"
   else
-    REPO="github.com/kimadactyl/dev.dearfriend-v2"
+    REPO="github.com/kimadactyl/dev.dearfriend.org.uk"
     DOMAIN="dev.dearfriend.org.uk"
 fi
 
