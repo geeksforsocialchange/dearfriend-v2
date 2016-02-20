@@ -37,12 +37,12 @@ if [[ $TRAVIS_BRANCH == 'master' ]]; then
   git init
   git add -A
   git commit -m "Travis CI automatic build for $THE_COMMIT"
-  git push --force --quiet "https://${GH_TOKEN}@${REPO}" gh-pages > /dev/null 2>&1
+  git push --force --quiet "https://${GH_TOKEN}@${REPO}" master:gh-pages > /dev/null 2>&1
 elif [[ $TRAVIS_BRANCH == 'develop' ]]; then
   git init
   git add -A
   git commit -m "Travis CI automatic build for $THE_COMMIT"
-  git push --force --quiet "https://${GH_TOKEN}@${REPO}" gh-pages > /dev/null 2>&1
+  git push --force --quiet "https://${GH_TOKEN}@${REPO}" master:gh-pages > /dev/null 2>&1
 else
   echo "Not on master or develop branch so do not publish the website to GitHub Pages"
 fi
