@@ -1,6 +1,6 @@
 ---
 title: Get in touch
-description: Contact us
+description: Contact Us
 layout: default.hbs
 ---
 You can follow us on [Twitter](http://twitter.com/dearfriendmcr) and like us on [Facebook](https://www.facebook.com/dearfriendmcr/).
