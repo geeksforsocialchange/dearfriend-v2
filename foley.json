@@ -28,9 +28,6 @@
          "pattern": ":collection/:title"
        },
       "metalsmith-collections": {
-        "posts": {
-          "pattern": "blog/!(index).md"
-        },
         "events": {
           "pattern": "events/!(index).md",
           "sortBy": "date"
