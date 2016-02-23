@@ -9,11 +9,12 @@ Send your letters and postcards to the below address.  Please enclose a covershe
 
 <address>
   Dear Friend<br>
-  ℅ People’s History Museum<br>
-  Left Bank<br>
+  5 Ribston St<br>
   Manchester<br>
-  M3 3ER
+  M15 5RH
 </address>
+
+If you don't hear from us within a week please let us know.
 
 Be aware that:
 
