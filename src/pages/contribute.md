@@ -8,10 +8,11 @@ You want to write a letter to an inspiring woman? Amazing! Need an idea for some
 Send your letters and postcards to the below address.  Please enclose a coversheet containing **your name** (or a pen name), the full name of the **person it's addressed to**, and your **email address**, in **block capitals**. Alternatively email us the same information to [info@dearfriend.org.uk](mailto:info@dearfriend.org.uk) when you send the letter (for example, if it's a postcard and you don't have space).
 
 <address>
-  Dear Friend<br>
-  5 Ribston St<br>
-  Manchester<br>
-  M15 5RH
+ Dear Friend<br> 
+ ℅ People’s History Museum<br> 
+ Left Bank<br>
+ Manchester<br>
+ M3 3ER
 </address>
 
 If you don't hear from us within a week please let us know.
