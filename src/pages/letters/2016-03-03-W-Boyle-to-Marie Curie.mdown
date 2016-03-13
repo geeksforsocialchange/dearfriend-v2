@@ -1,0 +1,20 @@
+--- 
+sender: Watcharin Boyle
+sender-twitter:
+recipient: Marie Curie
+recipient description: Physicist and chemist who conducted pioneering research into radioactivity
+recipient wikipedia/web page: https://en.wikipedia.org/wiki/Marie_Curie
+recipient born: 1867
+recipient died: 1934
+received: 2016-03-03
+---
+
+Dear Marie Curie
+
+Thank you for discovering two new chemical elements - radium and polonium which are important for medicine nowadays.
+
+I admire yor work. 
+
+Best wishes
+
+Watcharin

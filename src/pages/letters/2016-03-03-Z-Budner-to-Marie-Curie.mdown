@@ -1,0 +1,18 @@
+---
+sender: Zaneta Budner
+sender-twitter: 
+recipient: Marie Curie
+recipient description: Physicist and chemist who conducted pioneering research into radioactivity
+recipient wikipedia/web page: https://en.wikipedia.org/wiki/Marie_Curie
+recipient born: 1867
+recipient died: 1934
+received: 2016-03-03
+---
+
+Dear Marie Curie
+
+Thank you for your work on radiation led to X-rays and Radiotherapy in medicine. You worked helping people.
+
+Best wishes
+
+Zaneta

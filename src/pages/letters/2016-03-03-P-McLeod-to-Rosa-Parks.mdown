@@ -1,0 +1,19 @@
+---
+sender: Phoebe McLeod 
+sender-twitter: 
+recipient: Rosa Parks
+recipient description: Africal American civil rights activist
+recipient wikipedia/web page: https://en.wikipedia.org/wiki/Rosa_Parks
+recipient born: 1913
+recipient died: 2005
+received: 2016-03-03
+---
+
+Dear Rosa Parks, 
+
+Thank you for your courage, determination and confidence. 
+You knew what was right and wrong, and inspired so may other people. Your actions still inspire poeple to this day.
+
+Best wishes, 
+
+Phoebe McLeod.

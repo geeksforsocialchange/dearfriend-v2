@@ -1,0 +1,18 @@
+---
+sender: Sammi Alam 
+sender-twitter: 
+recipient: Mother Teresa
+recipient description: missionary and humanitarian
+recipient wikipedia/web page: https://en.wikipedia.org/wiki/Mother_Teresa
+recipient born: 1910
+recipient died: 1997
+received: 2016-03-03
+---
+Dear Mother Teresa,
+Thank you for all your Charity work with children and poor people in Calcutta.
+
+We remember you today,
+
+Best wishes,
+
+Sammi
