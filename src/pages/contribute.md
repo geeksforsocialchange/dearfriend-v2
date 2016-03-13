@@ -1,15 +1,14 @@
 ---
 title: How to contribute
 description: How to submit to Dear Friend
-layout: default.hbs
 ---
 You want to write a letter to an inspiring woman? Amazing! Need an idea for someone to write to? Have a look at our [suggestions board](https://trello.com/b/hQfWPHpV/women-to-write-about).
 
 Send your letters and postcards to the below address.  Please enclose a coversheet containing **your name** (or a pen name), the full name of the **person it's addressed to**, and your **email address**, in **block capitals**. Alternatively email us the same information to [info@dearfriend.org.uk](mailto:info@dearfriend.org.uk) when you send the letter (for example, if it's a postcard and you don't have space).
 
 <address>
- Dear Friend<br> 
- ℅ People’s History Museum<br> 
+ Dear Friend<br>
+ ℅ People’s History Museum<br>
  Left Bank<br>
  Manchester<br>
  M3 3ER

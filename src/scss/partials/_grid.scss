@@ -1,0 +1,13 @@
+.letter {
+  &__transcription {
+    @include mq($from: m) {
+      @include span(9 of $column-large);
+    }
+  }
+
+  &__meta {
+    @include mq($from: m) {
+      @include span(3 of $column-large);
+    }
+  }
+}

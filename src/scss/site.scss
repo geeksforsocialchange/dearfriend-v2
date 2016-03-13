@@ -13,11 +13,11 @@ $papercolor: #EAE2CF;
 
 // Partials
 @import 'partials/base';
-// @import 'partials/container';
+@import 'partials/container';
+@import 'partials/grid';
 @import 'partials/typography';
 @import 'partials/header';
 @import 'partials/footer';
-// @import 'partials/grid-test';
 
 body {
   background-color: #EAE2CF;
@@ -48,7 +48,7 @@ ul.nolist {
     margin-top: 5em;
     margin-bottom: 5em;
     padding-top: 2em;
-    max-width: 60em;
+    max-width: 65em;
   }
 }
 

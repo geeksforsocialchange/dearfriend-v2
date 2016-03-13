@@ -1,8 +1,6 @@
 ---
 title: Dear Friend
 description: Dear Friend is a letter-writing project celebrating women who stood up for others, past and present. Officially launching 8th March for International Women's Day 2016.
-layout: default.hbs
-permalink: false
 ---
 
 “Dear Friend” is a letter-writing project celebrating women in public life and struggles for liberation. Officially launching 8th March for International Women's Day 2016.

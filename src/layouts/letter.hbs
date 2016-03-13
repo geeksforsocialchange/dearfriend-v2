@@ -1,0 +1,24 @@
+{{> head}}
+  <article class="letter container">
+    <div class="letter__title">
+      <h1>To {{recipient}}, from {{sender}}</h1>
+    </div>
+    <div class="letter__transcription">
+      {{{contents}}}
+    </div>
+    <div class="letter__meta">
+      <h3>{{recipient}}</h3>
+      <ul>
+        {{#if born}}
+          <li>
+            Born {{born}}{{#if died}}, died {{died}}{{/if}}
+          </li>
+        {{/if}}
+        <li>{{description}}</li>
+        {{#if website}}
+          <li><a href="{{{website}}}">More information</a></li>
+        {{/if}}
+      </ul>
+    </div>
+  </article>
+{{> foot}}

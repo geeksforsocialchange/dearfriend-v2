@@ -2,10 +2,9 @@
 title: “I Think I'm Gay, Can You Help Me?” Exploring the archives of Friends and Families of Lesbians and Gays.
 location: Manchester Central Library Archives+
 description: Blog Test Description
-collection: events
 start: 2016-03-12T14:00
 end: 2016-03-12T16:00
-layout: post.hbs
+collection: events
 ---
 At a time of Section 28, the AIDS crisis, and police raids on gay bars, Friends and Families of Lesbians and Gays (FFLAG) supported young and older lesbian, gay, bisexual, and trans* (lgbt) people all over the country with letters and information about being l, g, b, or t. A lot of this work was carried out by mothers and sisters of lgbt people who had seen first-hand the damage misinformation, prejudice and unhappiness can cause.
 

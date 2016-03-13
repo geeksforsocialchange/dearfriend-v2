@@ -17,6 +17,7 @@ function buildMetalsmith (callback) {
   var metalsmith = new Metalsmith('.').clean(false)
   var plugins = config.metalsmith.plugins || {}
   var dateFormatter = require('metalsmith-date-formatter'); // Doesn't hey support the CLI so have to add manually
+  var default_values = require('metalsmith-default-values');
   metalsmith.source(config.paths.pages)
   metalsmith.destination(config.paths.build)
 
@@ -31,7 +32,15 @@ function buildMetalsmith (callback) {
         format: 'h:mm a'
       }
     ]
-  }))
+  })).use(default_values([
+    {
+        pattern : 'letters/*.md',
+        defaults: {
+            layout: 'letter.hbs',
+            collection: 'letters'
+        }
+    }
+  ]))
 
   // For each plugin
   Object.keys(plugins).forEach(function (key) {
