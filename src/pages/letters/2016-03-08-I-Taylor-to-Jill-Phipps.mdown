@@ -2,10 +2,10 @@
 sender: India Taylor
 sender twitter: india_bieber_x
 recipient: Jill Phipps 
-recipient description: British animal rights activist
-recipient wikipedia/web page: https://en.wikipedia.org/wiki/Jill_Phipps
-recipient born: 1964
-recipient died: 1995
+description: British animal rights activist
+website: https://en.wikipedia.org/wiki/Jill_Phipps
+born: 1964
+died: 1995
 received: 2016-03-08
 ---
 

@@ -1,16 +1,14 @@
 ---
-sender: Georgi Gagov 
-sender-twitter: 
+sender: Georgi Gagov
 recipient: Ms Tu Youyou
-recipient description: pharmaceutical chemist and educator
-recipient wikipedia/web page: https://en.wikipedia.org/wiki/Tu_Youyou
-recipient born: 1930
-recipient died:
+description: pharmaceutical chemist and educator
+website: https://en.wikipedia.org/wiki/Tu_Youyou
+born: 1930
 received: 2016-03-03
 ---
 
 Dear Ms Youyou,
 Thank you for discovered a cure for malaria.
-You saved many lives. 
-Best wishes. 
+You saved many lives.
+Best wishes.
 Georgi

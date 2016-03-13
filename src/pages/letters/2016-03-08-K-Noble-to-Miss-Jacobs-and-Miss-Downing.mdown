@@ -1,11 +1,7 @@
 ---
 sender: Kathy Noble
-sender twitter: 
-recipient: Miss Jacobs & Miss Downing 
-recipient description: teachers (Junior school, gramar school)
-recipient wikipedia/web page: 
-recipient born: 
-recipient died: 
+recipient: Miss Jacobs & Miss Downing
+description: teachers (Junior school, grammar school)
 received: 2016-03-08
 ---
 
@@ -15,4 +11,4 @@ These two teachers were my heroes in their term. They were not afraid of telling
 
 The history mistress (Miss Downing) was our deputy girls headmistress, strict upon us for behaviour towards each other. She gave us huge projects in school holidays and I did them all. She gave me the motivation to read the history in my environment: why! why! why! at times I was in trouble for handing in work to her.
 
-When both these teachers died I cried for the loss of them. 
+When both these teachers died I cried for the loss of them.

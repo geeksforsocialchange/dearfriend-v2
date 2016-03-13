@@ -1,11 +1,7 @@
 ---
 sender: Diana de Avila Sayaso
-sender-twitter: 
 recipient: Alicia de Avila Sayaso
-recipient description:
-recipient wikipedia/web page:
-recipient born:
-recipient died:
+description:
 received: 2016-03-03
 ---
 

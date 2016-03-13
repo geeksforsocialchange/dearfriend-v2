@@ -1,17 +1,14 @@
 ---
 sender: Nabina Al Mosawa 
-sender-twitter: 
 recipient: Karline Kleijer
 recipeint description: journalist, Medecins Sans Frontieres' emergency co-ordinator
-recipient wikipedia/web page: http://blogs.msf.org/en/staff/authors/karline-kleijer
-recipient born:
-recipient died:
+website: http://blogs.msf.org/en/staff/authors/karline-kleijer
 received: 2016-03-03
 ---
 
-Dear Karline Kleijer, 
+Dear Karline Kleijer,
 
-the Emergency co-ordinator for MSF in Yemen. Thank you. 
+the Emergency co-ordinator for MSF in Yemen. Thank you.
 
 Best Wishes,
 

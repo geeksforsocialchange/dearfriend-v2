@@ -2,10 +2,10 @@
 sender: Kirsty Bunting
 sender twitter: KirstyBunting1
 recipient: Ada Nield Chew
-recipient description: politician, suffragist, tailor
-recipient wikipedia/web page: https://en.wikipedia.org/wiki/Ada_Nield_Chew
-recipient born: 1870
-recipient died: 1945
+description: politician, suffragist, tailor
+website: https://en.wikipedia.org/wiki/Ada_Nield_Chew
+born: 1870
+died: 1945
 received: 2016-03-09
 ---
 

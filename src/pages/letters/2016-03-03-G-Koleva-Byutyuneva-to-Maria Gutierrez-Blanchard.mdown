@@ -1,18 +1,17 @@
 ---
 sender: Gergana Todorova Koleva-Byutyuneva 
-sender-twitter: 
 recipient: Maria Gutierrez Blanchard
-recipient description: painter
-recipient wikipedia/web page: https://en.wikipedia.org/wiki/Mar%C3%ADa_Blanchard
-recipient born: 1881
-recipient died: 1932
+description: painter
+website: https://en.wikipedia.org/wiki/Mar%C3%ADa_Blanchard
+born: 1881
+died: 1932
 received: 2016-03-03
 ---
 
-Dear Maria, 
+Dear Maria,
 
-Thank you for working to Spanish and France. You are very strong and fantastic women for me, because you are an amazing painter. 
+Thank you for working to Spanish and France. You are very strong and fantastic women for me, because you are an amazing painter.
 
-Best wishes, 
+Best wishes,
 
 Gergana

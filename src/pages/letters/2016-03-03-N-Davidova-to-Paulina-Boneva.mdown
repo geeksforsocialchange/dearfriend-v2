@@ -1,11 +1,9 @@
 ---
-sender: Nataliya Davidova 
-sender-twitter: 
+sender: Nataliya Davidova
 recipient: Paulina Boneva
-recipient description: actor, stunt double, make-up atrist
-recipient wikipedia/web page: http://www.imdb.com/name/nm6188433/
-recipient born: 1986
-recipient died:
+description: actor, stunt double, make-up atrist
+website: http://www.imdb.com/name/nm6188433/
+born: 1986
 received: 2016-03-03
 ---
 

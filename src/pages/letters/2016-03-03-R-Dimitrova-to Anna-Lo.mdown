@@ -1,14 +1,12 @@
 ---
-sender: Reneta Dimitrova 
-sender-twitter: 
+sender: Reneta Dimitrova
 recipient: Anna Lo
-recipient description: British MP, first MP of East Asian origin
-recipient wikipedia/web page: https://en.wikipedia.org/wiki/Anna_Lo
-recipient born: 1950
-recipient died:
+description: British MP, first MP of East Asian origin
+website: https://en.wikipedia.org/wiki/Anna_Lo
+born: 1950
 received: 2016-03-03
 ---
-Dear Anna, 
+Dear Anna,
 
 Thank you for represents the Alliance Party, in Northern Ireland.
 

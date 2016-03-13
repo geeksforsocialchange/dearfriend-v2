@@ -2,10 +2,10 @@
 sender: Sylvia Kölling
 sender twitter: sylviakoelling
 recipient: Clara Zetkin
-recipient description: Marxist theorist, activist, women's rights advocate
-recipient wikipedia/web page: https://en.wikipedia.org/wiki/Clara_Zetkin
-recipient born: 1857
-recipient died: 1933
+description: Marxist theorist, activist, women's rights advocate
+website: https://en.wikipedia.org/wiki/Clara_Zetkin
+born: 1857
+died: 1933
 received: 2016-03-08
 ---
 

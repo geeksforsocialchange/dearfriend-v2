@@ -1,11 +1,10 @@
 ---
 sender: Sammi Alam 
-sender-twitter: 
 recipient: Mother Teresa
-recipient description: missionary and humanitarian
-recipient wikipedia/web page: https://en.wikipedia.org/wiki/Mother_Teresa
-recipient born: 1910
-recipient died: 1997
+description: missionary and humanitarian
+website: https://en.wikipedia.org/wiki/Mother_Teresa
+born: 1910
+died: 1997
 received: 2016-03-03
 ---
 Dear Mother Teresa,

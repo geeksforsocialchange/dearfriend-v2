@@ -2,10 +2,10 @@
 sender: David Harms
 sender twitter: david_harms
 recipient: Loreta Asanavičiūté
-recipient description: activist
-recipient wikipedia/web page: http://www3.lrs.lt/pls/inter/w5_show?p_d=49557&p_r=4110&p_k=2
-recipient born: 1967
-recipient died: 1991
+description: activist
+website: http://www3.lrs.lt/pls/inter/w5_show?p_d=49557&p_r=4110&p_k=2
+born: 1967
+died: 1991
 received: 2016-03-08
 ---
 
