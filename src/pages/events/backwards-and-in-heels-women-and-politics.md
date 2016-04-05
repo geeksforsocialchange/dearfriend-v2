@@ -1,7 +1,7 @@
 ---
 title: "Backwards and in Heels: Women and politics"
 location: "People's History Museum"
-description: Backwards and in Heels: Women and politics
+description: "Backwards and in Heels: Women and politics"
 collection: events
 start: 2016-06-09T16:30
 end: 2016-06-09T18:00
