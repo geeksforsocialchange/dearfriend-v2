@@ -1,7 +1,7 @@
 ---
 title: "Collectors and Commisioners: Women in the Arts"
 location: "Manchester Art Gallery"
-description: Collectors and Commissioners: Women in the Arts
+description: "Collectors and Commissioners: Women in the Arts"
 collection: events
 start: 2016-06-04T13:00
 end: 2016-06-04T16:00
