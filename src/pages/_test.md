@@ -27,12 +27,19 @@ Body text 18pt 22pt [a link test](/nowhere) Vestibulum neque enim, [**a bold lin
   <a class="button button--inverted-alt">Alt inverted button</a>
 </div>
 
+1
 <hr class="squiggle">
+2
 <hr class="squiggle squiggle--2">
+3
 <hr class="squiggle squiggle--3">
+4
 <hr class="squiggle squiggle--4">
+5
 <hr class="squiggle squiggle--5">
+6
 <hr class="squiggle squiggle--6">
+7
 <hr class="squiggle squiggle--7">
 
 TESTS END
