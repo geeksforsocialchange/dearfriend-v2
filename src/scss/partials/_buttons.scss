@@ -5,21 +5,40 @@
   text-decoration: none;
   color: $background;
   background-color: $primary;
-}
+  cursor: pointer;
+  transition-duration: 0.5s;
 
-.button--alt {
-  color: $primary;
-  background-color: $background;
-  border: 1px solid $primary;
-}
+  &:hover {
+    color: $primary;
+    background-color: $primary-25;
+  }
 
-.button--inverted {
-  color: $primary;
-  background-color: $background;
-}
+  &--alt {
+    color: $primary;
+    background-color: $background;
+    border: 1px solid $primary;
+    &:hover {
+      color: $background;
+      background-color: $primary;
+    }
+  }
 
-.button--inverted-alt {
-  color: $background;
-  background-color: $primary;
-  border: 1px solid white;
+  &--inverted {
+    color: $primary;
+    background-color: $background;
+    &:hover {
+      color: $background;
+      background-color: $primary-75;
+    }
+  }
+
+  &--inverted-alt {
+    color: $background;
+    background-color: $primary;
+    border: 1px solid white;
+    &:hover {
+      color: $primary;
+      background-color: $background;
+    }
+  }
 }
