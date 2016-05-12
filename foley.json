@@ -27,20 +27,15 @@
        "metalsmith-permalinks": {
          "pattern": ":collection/:title"
        },
-      "metalsmith-collections": {
-        "events": {
-          "pattern": "events/*.md",
-          "sortBy": "date"
-        }
-      },
-      "metalsmith-default-values": [
-        {
-          "pattern": "pages/letters/*.md",
-          "defaults": {
-            "layout": "letter.hbs"
-          }
-        }
-      ],
+       "metalsmith-collections": {
+         "events": {
+           "pattern": "events/*.md",
+           "sortBy": "start"
+         },
+         "letters": {
+           "pattern": "letters/!(index).md"
+         }
+       },
       "metalsmith-discover-helpers": {
         "directory": "./src/helpers",
         "pattern": "/\\.js$/"
@@ -50,6 +45,9 @@
         "directory": "./src/layouts",
         "partials": "./src/partials",
         "default": "default.hbs"
+      },
+      "metalsmith-in-place": {
+        "engine": "handlebars"
       }
     }
   }

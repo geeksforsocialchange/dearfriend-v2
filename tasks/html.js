@@ -16,33 +16,30 @@ function buildMetalsmith (callback) {
   // Metalsmith instance and options
   var metalsmith = new Metalsmith('.').clean(false)
   var plugins = config.metalsmith.plugins || {}
-  var dateFormatter = require('metalsmith-date-formatter'); // Doesn't hey support the CLI so have to add manually
+  var dateFormatter = require('metalsmith-date-formatter');
   var default_values = require('metalsmith-default-values');
+
   metalsmith.source(config.paths.pages)
   metalsmith.destination(config.paths.build)
 
-  metalsmith.use(dateFormatter({
-    dates: [
-      {
-        key: 'start',
-        format: 'dddd MMMM Do YYYY, h:mm a'
-      },
-      {
-        key: 'end',
-        format: 'h:mm a'
-      }
-    ]
-  })).use(default_values([
+  // Plugins which don't play nice with the CLI
+  metalsmith.use(default_values([
     {
-        pattern : 'letters/*.md',
-        defaults: {
-            layout: 'letter.hbs',
-            collection: 'letters'
-        }
+      pattern : 'letters/*.md',
+      defaults: {
+          layout: 'letter.hbs',
+          collection: 'letters'
+      }
+    },
+    {
+      pattern: 'events/*.md',
+      defaults: {
+          collection: 'events'
+      }
     }
-  ]))
+  ]));
 
-  // For each plugin
+  // For each plugin in foley.json using the CLI config
   Object.keys(plugins).forEach(function (key) {
     var plugin = require(key) // Require Metalsmith plugins
     var options = plugins[key] // Get options
@@ -50,8 +47,6 @@ function buildMetalsmith (callback) {
     // Add plugins to Metalsmith
     metalsmith.use(plugin(options))
   })
-
-
 
   // Rename file extensions
   metalsmith.use(rename([
