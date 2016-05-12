@@ -28,7 +28,7 @@ $mq-static-breakpoint: l;
 // $mq-show-breakpoints: (xs, s, m, l, xl);
 
 // Site Variables
-$base-font-size: 16px; // Recommended to not change this
+$base-font-size: 18px; // Recommended to not change this
 $site-container: rem(1300px);
 $site-gutter: rem(20px);
 $grid-gutter: .25; // Quarter of column width
@@ -38,14 +38,17 @@ $grid-debug: hide; // Change this to show or hide
 
 
 // Colours
-$brand-a: rgba(50, 120, 50, 1);
-$brand-b: rgba(50, 120, 50, .25);
+$primary: #0E4194;
+$background: #FFFFFF;
+$secondary: #222222;
+
+$primary-75: #4A70AF;
+$primary-50: #86A0C9;
+$primary-25: #C3CFE4;
 
 // Fonts
-$font-primary: 'georgia', serif;
+$font-primary: 'garamond-premier-pro', 'garamond', 'georgia', serif;
 $font-primary-weight: 400;
-$font-headline: 'verdana', sans-serif;
-$font-headline-weight: 700;
 
 // Default Grid Options
 // -----------------------------

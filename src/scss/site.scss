@@ -18,9 +18,10 @@ $papercolor: #EAE2CF;
 @import 'partials/typography';
 @import 'partials/header';
 @import 'partials/footer';
+@import 'partials/inverted';
+@import 'partials/buttons';
 
 body {
-  background-color: #EAE2CF;
   @include mq($from: m) {
     background: url("/assets/img/background.jpg");
     background-attachment: fixed;
@@ -28,9 +29,6 @@ body {
   }
 }
 
-h1 {
-  text-align: center;
-}
 
 ul.nolist {
   margin: 0;
@@ -41,7 +39,7 @@ ul.nolist {
   margin: auto;
   padding: 1em;
   padding-bottom: 8em;
-  background-color: $papercolor;
+  background-color: $background;
   @include mq($from: m) {
     width: 80%;
     padding: 5%;
