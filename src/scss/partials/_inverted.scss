@@ -11,6 +11,8 @@
   @include mq($from: m) {
     padding-left: $medium-spacing;
     padding-right: $medium-spacing;
+  }
+  @include mq(m, l) {
     margin-left: -$medium-spacing;
     margin-right: -$medium-spacing;
   }
