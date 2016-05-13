@@ -26,8 +26,12 @@ echo "Running Gulp"
 # Run gulp
 gulp deploy --debug --production
 
+echo "Moving to created directory"
+
 # Move to created directory
 cd _dist
+
+echo "Creating CNAME file"
 
 # Create CNAME file and populate with domain depending on branch
 cat > CNAME << EOF
