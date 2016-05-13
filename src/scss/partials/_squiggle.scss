@@ -2,11 +2,13 @@ hr {
   border: none;
 }
 
+$squiggle-scale: 0.25;
+
 .squiggle {
   background-image: url("/assets/img/squiggles/1.png");
   background-repeat: no-repeat;
   background-size: auto 100%;
-  height: 25px;
+  height: 50px * $squiggle-scale;
 
   &--inverted {
     background-image: url("/assets/img/squiggles/w-1.png");
@@ -14,7 +16,7 @@ hr {
 
   &--2 {
     background-image: url("/assets/img/squiggles/2.png");
-    height: 20.5px;
+    height: 41px * $squiggle-scale;
     &--inverted {
       background-image: url("/assets/img/squiggles/w-2.png");
     }
@@ -22,7 +24,7 @@ hr {
 
   &--3 {
     background-image: url("/assets/img/squiggles/3.png");
-    height: 23px;
+    height: 46px * $squiggle-scale;
     &--inverted {
       background-image: url("/assets/img/squiggles/w-3.png");
     }
@@ -30,7 +32,7 @@ hr {
 
   &--4 {
     background-image: url("/assets/img/squiggles/4.png");
-    height: 21px;
+    height: 42px * $squiggle-scale;
     &--inverted {
       background-image: url("/assets/img/squiggles/w-4.png");
     }
@@ -38,7 +40,7 @@ hr {
 
   &--5 {
     background-image: url("/assets/img/squiggles/5.png");
-    height: 29.5px;
+    height: 59px * $squiggle-scale;
     &--inverted {
       background-image: url("/assets/img/squiggles/w-5.png");
     }
@@ -46,7 +48,7 @@ hr {
 
   &--6 {
     background-image: url("/assets/img/squiggles/6.png");
-    height: 16.5px;
+    height: 33px * $squiggle-scale;
     &--inverted {
       background-image: url("/assets/img/squiggles/w-6.png");
     }
@@ -54,7 +56,7 @@ hr {
 
   &--7 {
     background-image: url("/assets/img/squiggles/7.png");
-    height: 13.5px;
+    height: 27px * $squiggle-scale;
     &--inverted {
       background-image: url("/assets/img/squiggles/w-7.png");
     }
