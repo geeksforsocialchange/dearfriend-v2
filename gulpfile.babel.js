@@ -42,13 +42,13 @@ gulp.task('deploy', callback => {
 })
 
 // Run the audit task to check the code
-// gulp.task('auditcode', callback => {
-//   runSequence(
-//     'scsslint',
-//     'jslint',
-//     callback
-//   )
-// })
+gulp.task('auditcode', callback => {
+  runSequence(
+    'scsslint',
+    'jslint',
+    callback
+  )
+})
 
 // Run the audit task to check the built website for accessibility
 // NOTE: Not used yet
