@@ -5,6 +5,7 @@ $tablet-icons-size: 13em;
 .logo {
   text-indent: -9999px;
   display: inline-block;
+  vertical-align: top;
   transition-duration: $default-animation-time;
   background-size: contain;
   background-image: url("/assets/img/logos/df_small.png");
@@ -25,16 +26,19 @@ $tablet-icons-size: 13em;
   margin-bottom: 1em;
 }
 
-@include mq($from: l) {
-  .js__hide-if-nav-visible {
-    display: none;
-  }
-}
-
 .nav {
+
   @include mq($until: l) {
     display: none;
   }
+
+  @include mq($from: l) {
+    // Stop the JS hiding this if the screen size changes
+    display: inline-block !important;
+    float: right;
+    margin-top: $tablet-icons-size / 2;
+  }
+
   &__list {
     list-style-type: none;
     margin: 0;
@@ -57,10 +61,16 @@ $tablet-icons-size: 13em;
   }
 
   &__link {
-    color: white;
+    @include mq($until: l) {
+      color: white;
+    }
+
     // Space out the underlines a bit
     text-decoration: none;
     border-bottom: 2px solid white;
+    @include mq($from: l) {
+      border-bottom-color: $primary;
+    }
     display: inline-block;
     &:hover {
       border-bottom: 2px solid $primary-50;

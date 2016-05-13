@@ -1,10 +1,26 @@
+body {
+  @include mq($from: l) {
+    background: url("/assets/img/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
+
 .main {
   padding: 1em $small-spacing 5em;
   background-color: $background;
+  max-width: 1050px;
   @include mq($from: m)  {
     padding: 1em $medium-spacing;
   }
+  @include mq($from: l) {
+    margin: 0 auto;
+  }
+  @include mq($from: 1150px) {
+    margin: 4em auto;
+  }
 }
+
 .grid {
   @include container(12);
   &__content {

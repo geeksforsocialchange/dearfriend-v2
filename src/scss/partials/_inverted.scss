@@ -1,4 +1,4 @@
-.inverted {
+@mixin inverted {
   background-color: $primary;
   color: white;
   position: relative;
@@ -47,5 +47,15 @@
       height: 45px;
       margin-bottom: -45px;
     }
+  }
+}
+
+.inverted {
+  @include inverted;
+}
+
+.inverted--if-not-large {
+  @include mq($until: l) {
+    @include inverted;
   }
 }
