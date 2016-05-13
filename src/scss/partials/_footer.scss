@@ -15,3 +15,22 @@ footer {
     clear: both;
   }
 }
+
+.social {
+  &__link {
+    background-position: left center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-left: 30px;
+    background-size: contain;
+    font-weight: $bold;
+    text-decoration: none;
+    margin: 0.5em 0;
+    &--twitter {
+      background-image: url("/assets/img/icons/twitter.png");
+    }
+    &--facebook {
+      background-image: url("/assets/img/icons/facebook.png");
+    }
+  }
+}

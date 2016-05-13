@@ -1,7 +1,18 @@
+// Size for logo and click icon at mobile size
 $mobile-icons-size: 4em;
 
 .logo {
+  text-indent: -9999px;
+  display: inline-block;
+  background-image: url("/assets/img/logos/df_small.png");
+  background-size: contain;
   width: $mobile-icons-size;
+  height: $mobile-icons-size;
+  transition-duration: $default-animation-time;
+  &:hover {
+    opacity: 0.5;
+    transition-duration: $default-animation-time;
+  }
 }
 
 .page-title {
@@ -22,12 +33,19 @@ $mobile-icons-size: 4em;
       margin-top: 0.25em;
     }
     &--last {
-      margin-bottom: 0.5em;
+      margin-bottom: 0.25em;
     }
   }
 
   &__link {
     color: white;
+    // Space out the underlines a bit
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    &:hover {
+      border-bottom: 2px solid $primary-50;
+    }
   }
 
   &__toggle {

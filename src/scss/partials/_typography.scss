@@ -23,13 +23,17 @@ a {
   transition-duration: $default-animation-time;
 }
 
+.inverted a {
+  color: white;
+}
+
 a:hover {
   color: $primary-50;
   transition-duration: $default-animation-time;
 }
 
 strong {
-  font-weight: 600;
+  font-weight: $bold;
 }
 
 .no-top-margin {
