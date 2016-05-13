@@ -10,7 +10,7 @@ body {
   padding: 1em $small-spacing 5em;
   background-color: $background;
   max-width: 1050px;
-  @include mq($from: m)  {
+  @include mq(m, l)  {
     padding: 1em $medium-spacing;
   }
   @include mq($from: l) {
@@ -24,7 +24,7 @@ body {
 .grid {
   @include container(12);
   &__content {
-    @include mq($from: m) {
+    @include mq(m, l) {
       @include span(6);
     }
     @include mq($from: l) {
@@ -32,7 +32,7 @@ body {
     }
   }
   &__aside {
-    @include mq($from: m) {
+    @include mq(m, l) {
       @include span(6 last);
     }
     @include mq($from: l) {
