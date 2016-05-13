@@ -39,7 +39,7 @@ ul.nolist {
 .main {
   margin: auto;
   padding: 1em;
-  padding-bottom: 8em;
+  padding-bottom: 5em;
   background-color: $background;
   @include mq($from: m) {
     width: 80%;

@@ -6,7 +6,8 @@ var FastClick = require('fastclick')
 
 FastClick.attach(document.body)
 
-console.log('testing if jquery is loaded globally:')
-console.log($)
+// console.log('testing if jquery is loaded globally:')
+// console.log($)
 
-require('./test')
+// require('./test')
+require('./nav.js')
