@@ -4,9 +4,10 @@ body {
   color: $primary;
 }
 
-h1, .h1, h2, .h2 {
+h1, .h1, h2, .h2, h3, .h3 {
   font-weight: $font-primary-weight;
   line-height: 1;
+  margin-top: 0.25em;
 }
 
 h1, .h1 {
@@ -16,6 +17,10 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 1.777777778em; /* 32 / $base-font-size */
+}
+
+h3, .h3 {
+  font-size: $base-font-size;
 }
 
 a {

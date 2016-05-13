@@ -1,13 +1,26 @@
-.letter {
-  &__transcription {
+.main {
+  padding: 1em $small-spacing 5em;
+  background-color: $background;
+  @include mq($from: m)  {
+    padding: 1em $medium-spacing;
+  }
+}
+.grid {
+  @include container(12);
+  &__content {
     @include mq($from: m) {
-      @include span(9 of $column-large);
+      @include span(6);
+    }
+    @include mq($from: l) {
+      @include span(8);
     }
   }
-
-  &__meta {
+  &__aside {
     @include mq($from: m) {
-      @include span(3 of $column-large);
+      @include span(6 last);
+    }
+    @include mq($from: l) {
+      @include span(4 last);
     }
   }
 }

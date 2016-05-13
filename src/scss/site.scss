@@ -13,7 +13,6 @@ $papercolor: #EAE2CF;
 
 // Partials
 @import 'partials/base';
-@import 'partials/container';
 @import 'partials/grid';
 @import 'partials/typography';
 @import 'partials/header';
@@ -30,25 +29,9 @@ body {
   }
 }
 
-
 ul.nolist {
   margin: 0;
   padding: 0;
-}
-
-.main {
-  margin: auto;
-  padding: 1em;
-  padding-bottom: 5em;
-  background-color: $background;
-  @include mq($from: m) {
-    width: 80%;
-    padding: 5%;
-    margin-top: 5em;
-    margin-bottom: 5em;
-    padding-top: 2em;
-    max-width: 65em;
-  }
 }
 
 .event__container {

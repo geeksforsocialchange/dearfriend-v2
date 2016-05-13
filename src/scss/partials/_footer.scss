@@ -3,12 +3,11 @@ footer {
 }
 
 .sponsors {
-  @include container(6);
   li {
     list-style-type: none;
-    @include gallery(2);
+    @include gallery(6);
     @include mq($from: m) {
-      @include gallery(1);
+      @include gallery(2);
     }
   }
   &+ p {
@@ -17,6 +16,10 @@ footer {
 }
 
 .social {
+  @include mq($from: m) {
+    display: inline-block;
+    margin-right: 2em;
+  }
   &__link {
     background-position: left center;
     background-repeat: no-repeat;

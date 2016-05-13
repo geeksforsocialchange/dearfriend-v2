@@ -1,14 +1,20 @@
 // Size for logo and click icon at mobile size
 $mobile-icons-size: 4em;
+$tablet-icons-size: 13em;
 
 .logo {
   text-indent: -9999px;
   display: inline-block;
-  background-image: url("/assets/img/logos/df_small.png");
+  transition-duration: $default-animation-time;
   background-size: contain;
+  background-image: url("/assets/img/logos/df_small.png");
   width: $mobile-icons-size;
   height: $mobile-icons-size;
-  transition-duration: $default-animation-time;
+  @include mq($from: m) {
+    background-image: url("/assets/img/logos/df.png");
+    width: $tablet-icons-size;
+    height: $tablet-icons-size;
+  }
   &:hover {
     opacity: 0.5;
     transition-duration: $default-animation-time;
@@ -19,7 +25,16 @@ $mobile-icons-size: 4em;
   margin-bottom: 1em;
 }
 
+@include mq($from: l) {
+  .js__hide-if-nav-visible {
+    display: none;
+  }
+}
+
 .nav {
+  @include mq($until: l) {
+    display: none;
+  }
   &__list {
     list-style-type: none;
     margin: 0;
@@ -34,6 +49,10 @@ $mobile-icons-size: 4em;
     }
     &--last {
       margin-bottom: 0.25em;
+    }
+    @include mq($from: m) {
+      display: inline-block;
+      margin: 0.5em 0.5em;
     }
   }
 
@@ -60,6 +79,9 @@ $mobile-icons-size: 4em;
     &:hover {
       opacity: 0.5;
       transition-duration: $default-animation-time;
+    }
+    @include mq($from: l) {
+      display: none;
     }
   }
 
