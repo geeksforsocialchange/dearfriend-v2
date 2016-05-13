@@ -13,7 +13,7 @@ body {
   @include mq(m, l)  {
     padding: 1em $medium-spacing;
   }
-  @include mq($from: l) {
+  @include mq($from: m) {
     margin: 0 auto;
   }
   @include mq($from: 1150px) {
