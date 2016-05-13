@@ -4,7 +4,7 @@ body {
   color: $primary;
 }
 
-h1, h2, h3 {
+h1, .h1, h2, .h2 {
   font-weight: $font-primary-weight;
   line-height: 1;
 }
@@ -19,11 +19,13 @@ h2, .h2 {
 }
 
 a {
-  color: $primary
+  color: $primary;
+  transition-duration: $default-animation-time;
 }
 
 a:hover {
-  color: $primary-50
+  color: $primary-50;
+  transition-duration: $default-animation-time;
 }
 
 strong {

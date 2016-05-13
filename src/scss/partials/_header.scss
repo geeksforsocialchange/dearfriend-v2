@@ -1,23 +1,48 @@
-header {
-  margin: 1em 0 0 0;
-  text-align: center;
-}
+$mobile-icons-size: 4em;
 
 .logo {
-  height: 250px
+  width: $mobile-icons-size;
 }
 
 .page-title {
   margin-bottom: 1em;
 }
 
-.nav__list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
+.nav {
+  &__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
 
-.nav__item {
-  display: inline-block;
-  margin: 1em;
+  &__item {
+    margin: 1em;
+    &--first {
+      margin-top: 0.25em;
+    }
+    &--last {
+      margin-bottom: 0.5em;
+    }
+  }
+
+  &__link {
+    color: white;
+  }
+
+  &__toggle {
+    height: $mobile-icons-size;
+    width: $mobile-icons-size;
+    float: right;
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("/assets/img/icons/menu.png");
+    transition-duration: $default-animation-time;
+    &:hover {
+      opacity: 0.5;
+      transition-duration: $default-animation-time;
+    }
+  }
+
 }

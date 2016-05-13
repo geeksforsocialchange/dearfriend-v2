@@ -5,9 +5,9 @@ description: Dear Friend is a letter-writing project celebrating women who stood
 
 <hr class="squiggle">
 
-## h1 Title 40pt 40pt line height. Eget sollicitudin sapien, at lacinia sem. Pellentesque
+# h1 Title 40pt 40pt line height. Eget sollicitudin sapien, at lacinia sem. Pellentesque
 
-### h2 Intro text 32pt 32pt line height Vestibulum neque enim, viverra ut mi vitae, rhoncus dictum tellus. Morbi at turpis non lorem
+## h2 Intro text 32pt 32pt line height Vestibulum neque enim, viverra ut mi vitae, rhoncus dictum tellus. Morbi at turpis non lorem
 
 <hr class="squiggle squiggle--2">
 
@@ -27,6 +27,8 @@ Body text 18pt 22pt [a link test](/nowhere) Vestibulum neque enim, [**a bold lin
   <a class="button button--inverted-alt">Alt inverted button</a>
 </div>
 
+## Squiggles
+
 1
 <hr class="squiggle">
 2
@@ -41,5 +43,23 @@ Body text 18pt 22pt [a link test](/nowhere) Vestibulum neque enim, [**a bold lin
 <hr class="squiggle squiggle--6">
 7
 <hr class="squiggle squiggle--7">
+
+<div class="inverted">
+  <h2>Inverted squiggles</h2>
+  1
+  <hr class="squiggle squiggle--inverted">
+  2
+  <hr class="squiggle squiggle--2 squiggle--2--inverted">
+  3
+  <hr class="squiggle squiggle--3 squiggle--3--inverted">
+  4
+  <hr class="squiggle squiggle--4 squiggle--4--inverted">
+  5
+  <hr class="squiggle squiggle--5 squiggle--5--inverted">
+  6
+  <hr class="squiggle squiggle--6 squiggle--6--inverted">
+  7
+  <hr class="squiggle squiggle--7 squiggle--7--inverted">
+</div>
 
 TESTS END
