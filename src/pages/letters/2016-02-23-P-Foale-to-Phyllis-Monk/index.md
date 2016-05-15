@@ -6,6 +6,9 @@ description: teacher and founder of Chorleywood School
 born: 1885
 died: 1970
 received: 2016-02-23
+images:
+  - 1.png
+  - 2.png
 ---
 
 Dear Aunt Phyllis,
