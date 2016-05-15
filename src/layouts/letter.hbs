@@ -1,24 +1,33 @@
 {{> head}}
-  <article class="letter container">
-    <div class="letter__title">
-      <h1>To {{recipient}}, from {{sender}}</h1>
+  <h1 class="page-title">To {{recipient}}, from {{sender}}</h1>
+  <div class="grid">
+    <div class="grid__content">
+      <hr class="squiggle squiggle--4">
+      <article class="letter container">
+        <div class="letter__scan">
+          <img src="./{{image}}" alt="Scan of a letter to {{recipient}}, from {{sender}}">
+        </div>
+        <div class="letter__transcription">
+          {{{contents}}}
+        </div>
+      </article>
     </div>
-    <div class="letter__transcription">
-      {{{contents}}}
-    </div>
-    <div class="letter__meta">
-      <h3>{{recipient}}</h3>
-      <ul>
-        {{#if born}}
-          <li>
+    <div class="grid__aside">
+      <div class="letter__meta">
+        <hr class="squiggle squiggle--6">
+        <h2>About {{recipient}}</h2>
+        <p>{{description}}</p>
+        <p>
+          {{#if born}}
             Born {{born}}{{#if died}}, died {{died}}{{/if}}
-          </li>
-        {{/if}}
-        <li>{{description}}</li>
-        {{#if website}}
-          <li><a href="{{{website}}}">More information</a></li>
-        {{/if}}
-      </ul>
+          {{/if}}
+        </p>
+        <p>
+          {{#if website}}
+            <a href="{{{website}}}">More information</a>
+          {{/if}}
+        </p>
+      </div>
     </div>
-  </article>
+  </div>
 {{> foot}}
