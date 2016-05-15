@@ -25,7 +25,7 @@ function buildMetalsmith (callback) {
   // Plugins which don't play nice with the CLI
   metalsmith.use(default_values([
     {
-      pattern : 'letters/*.md',
+      pattern : 'letters/*/*.md',
       defaults: {
           layout: 'letter.hbs',
           collection: 'letters'
@@ -34,6 +34,7 @@ function buildMetalsmith (callback) {
     {
       pattern: 'events/*.md',
       defaults: {
+          layout: 'event.hbs',
           collection: 'events'
       }
     }

@@ -1,0 +1,12 @@
+---
+title: "Letters"
+description: "Your letters"
+layout: default.hbs
+permalink: false
+---
+
+<ul class="nolist">
+  {{#letters}}
+    <li><a href="/{{path}}">To {{recipient}}, from {{sender}}</a></li>
+  {{/letters}}
+</ul>

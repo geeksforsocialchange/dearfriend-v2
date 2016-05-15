@@ -29,11 +29,11 @@
        },
        "metalsmith-collections": {
          "events": {
-           "pattern": "events/*.md",
+           "pattern": "events/!(index).hbs",
            "sortBy": "start"
          },
          "letters": {
-           "pattern": "letters/!(index).md"
+           "pattern": "letters/!(index).hbs"
          }
        },
       "metalsmith-discover-helpers": {
