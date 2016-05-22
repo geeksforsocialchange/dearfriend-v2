@@ -42,10 +42,6 @@ function buildMetalsmith (callback) {
     }
   ]));
 
-  metalsmith.use(define({
-    moment: require("moment")
-  }));
-
   // For each plugin in foley.json using the CLI config
   Object.keys(plugins).forEach(function (key) {
     var plugin = require(key) // Require Metalsmith plugins
