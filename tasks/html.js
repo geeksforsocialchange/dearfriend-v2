@@ -18,7 +18,6 @@ function buildMetalsmith (callback) {
   var metalsmith    = new Metalsmith('.').clean(false)
   var plugins       = config.metalsmith.plugins || {}
   var default_values = require('metalsmith-default-values');
-  var define        = require("metalsmith-define");
   var Handlebars    = require('handlebars');
   var moment        = require('moment');
 
