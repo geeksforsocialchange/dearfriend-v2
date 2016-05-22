@@ -8,7 +8,7 @@ permalink: false
   <div class="grid__content">
     {{#letters}}
       <hr class="squiggle squiggle--4">
-      <p class="h3">{{received}}</p>
+      <p class="h3">Recieved on {{ dateFormat this.received}}</p>
       <h2 class="h2">To <a href="/{{path}}">{{recipient}}, {{description}}.</a></h2>
       <h3 class="h3">From {{sender}}</h3>
     {{/letters}}
