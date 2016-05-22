@@ -8,7 +8,7 @@ born: 1891
 died: 1947
 received: 2016-03-06
 images:
-  - 1.png
+  - 1.jpg
 ---
 
 Dear Ellen,

@@ -10,7 +10,7 @@ body {
   padding: 1em $small-spacing 5em;
   background-color: $background;
   max-width: 1050px;
-  @include mq(m, l)  {
+  @include mq($from: m)  {
     padding: 1em $medium-spacing;
   }
   @include mq($from: m) {

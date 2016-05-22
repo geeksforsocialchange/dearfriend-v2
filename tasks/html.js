@@ -55,6 +55,14 @@ function buildMetalsmith (callback) {
     return moment(context).format("LL");
   });
 
+  Handlebars.registerHelper('dateTimeFormat', function( context ) {
+    return moment(context).format("LLL");
+  });
+
+  Handlebars.registerHelper('timeFormat', function( context ) {
+    return moment(context).format("h:mmA");
+  });
+
   // Rename file extensions
   metalsmith.use(rename([
     [/\.hbs$/, '.html'],

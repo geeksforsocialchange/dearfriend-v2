@@ -7,8 +7,8 @@ born: 1885
 died: 1970
 received: 2016-02-23
 images:
-  - 1.png
-  - 2.png
+  - 1.jpg
+  - 2.jpg
 ---
 
 Dear Aunt Phyllis,

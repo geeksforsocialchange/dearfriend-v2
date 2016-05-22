@@ -7,7 +7,7 @@ website: https://en.wikipedia.org/wiki/Margaret_Humphreys
 born: 1944
 received: 2016-02-23
 images:
-  - 1.png
+  - 1.jpg
 ---
 
 February 2016
