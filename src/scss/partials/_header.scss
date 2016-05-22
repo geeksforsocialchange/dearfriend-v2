@@ -1,6 +1,7 @@
 // Size for logo and click icon at mobile size
 $mobile-icons-size: 4em;
 $tablet-icons-size: 13em;
+$logo-aspect: 362 / 383;
 
 .logo {
   text-indent: -9999px;
@@ -9,11 +10,12 @@ $tablet-icons-size: 13em;
   transition-duration: $default-animation-time;
   background-size: contain;
   background-image: url("/assets/img/logos/df_small.png");
-  width: $mobile-icons-size;
+  background-repeat: no-repeat;
+  width: $mobile-icons-size * $logo-aspect;
   height: $mobile-icons-size;
   @include mq($from: m) {
     background-image: url("/assets/img/logos/df.png");
-    width: $tablet-icons-size;
+    width: $tablet-icons-size * $logo-aspect;
     height: $tablet-icons-size;
   }
   &:hover {
