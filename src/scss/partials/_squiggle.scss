@@ -2,21 +2,20 @@ hr {
   border: none;
 }
 
-$squiggle-scale: 0.25;
+$squiggle-scale: 0.5;
 
 .squiggle {
-  background-image: url("/assets/img/squiggles/1.png");
   background-repeat: no-repeat;
   background-size: auto 100%;
-  height: 50px * $squiggle-scale;
 
-  &--inverted {
-    background-image: url("/assets/img/squiggles/w-1.png");
+  &--1 {
+    background-image: url("/assets/img/squiggles/1.png");
+    height: 29px * $squiggle-scale;
   }
 
   &--2 {
     background-image: url("/assets/img/squiggles/2.png");
-    height: 41px * $squiggle-scale;
+    height: 20px * $squiggle-scale;
     &--inverted {
       background-image: url("/assets/img/squiggles/w-2.png");
     }
@@ -24,7 +23,7 @@ $squiggle-scale: 0.25;
 
   &--3 {
     background-image: url("/assets/img/squiggles/3.png");
-    height: 46px * $squiggle-scale;
+    height: 16px * $squiggle-scale;
     &--inverted {
       background-image: url("/assets/img/squiggles/w-3.png");
     }
@@ -32,7 +31,7 @@ $squiggle-scale: 0.25;
 
   &--4 {
     background-image: url("/assets/img/squiggles/4.png");
-    height: 42px * $squiggle-scale;
+    height: 21px * $squiggle-scale;
     &--inverted {
       background-image: url("/assets/img/squiggles/w-4.png");
     }
@@ -40,7 +39,7 @@ $squiggle-scale: 0.25;
 
   &--5 {
     background-image: url("/assets/img/squiggles/5.png");
-    height: 59px * $squiggle-scale;
+    height: 16px * $squiggle-scale;
     &--inverted {
       background-image: url("/assets/img/squiggles/w-5.png");
     }
@@ -48,7 +47,7 @@ $squiggle-scale: 0.25;
 
   &--6 {
     background-image: url("/assets/img/squiggles/6.png");
-    height: 33px * $squiggle-scale;
+    height: 21px * $squiggle-scale;
     &--inverted {
       background-image: url("/assets/img/squiggles/w-6.png");
     }

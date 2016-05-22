@@ -30,7 +30,7 @@ Body text 18pt 22pt [a link test](/nowhere) Vestibulum neque enim, [**a bold lin
 ## Squiggles
 
 1
-<hr class="squiggle">
+<hr class="squiggle squiggle--1">
 2
 <hr class="squiggle squiggle--2">
 3
