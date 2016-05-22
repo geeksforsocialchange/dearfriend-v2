@@ -46,6 +46,7 @@
         "partials": "./src/partials",
         "default": "default.hbs"
       },
+      "metalsmith-moment": ["start", "end"],
       "metalsmith-in-place": {
         "engine": "handlebars"
       }

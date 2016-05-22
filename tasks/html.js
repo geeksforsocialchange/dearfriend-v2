@@ -11,13 +11,16 @@ import Metalsmith from 'metalsmith'
 import rename from 'metalsmith-rename'
 import htmlmin from 'gulp-htmlmin'
 
+
 // Build Metalsmith
 function buildMetalsmith (callback) {
   // Metalsmith instance and options
-  var metalsmith = new Metalsmith('.').clean(false)
-  var plugins = config.metalsmith.plugins || {}
-  var dateFormatter = require('metalsmith-date-formatter');
+  var metalsmith    = new Metalsmith('.').clean(false)
+  var plugins       = config.metalsmith.plugins || {}
   var default_values = require('metalsmith-default-values');
+  var define        = require("metalsmith-define");
+  var Handlebars    = require('handlebars');
+  var moment        = require('moment');
 
   metalsmith.source(config.paths.pages)
   metalsmith.destination(config.paths.build)
@@ -28,17 +31,21 @@ function buildMetalsmith (callback) {
       pattern : 'letters/*/*.md',
       defaults: {
           layout: 'letter.hbs',
-          collection: 'letters'
+          collection: 'letters',
       }
     },
     {
       pattern: 'events/*.md',
       defaults: {
           layout: 'event.hbs',
-          collection: 'events'
+          collection: 'events',
       }
     }
   ]));
+
+  metalsmith.use(define({
+    moment: require("moment")
+  }));
 
   // For each plugin in foley.json using the CLI config
   Object.keys(plugins).forEach(function (key) {
@@ -48,6 +55,10 @@ function buildMetalsmith (callback) {
     // Add plugins to Metalsmith
     metalsmith.use(plugin(options))
   })
+
+  Handlebars.registerHelper('dateFormat', function( context ) {
+    return moment(context).format("LL");
+  });
 
   // Rename file extensions
   metalsmith.use(rename([
