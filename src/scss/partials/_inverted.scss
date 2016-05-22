@@ -12,9 +12,13 @@
     padding-left: $medium-spacing;
     padding-right: $medium-spacing;
   }
-  @include mq(m, l) {
+  @include mq($from: m) {
     margin-left: -$medium-spacing;
     margin-right: -$medium-spacing;
+  }
+  @include mq($from: 1150px) {
+    margin-left: -2em;
+    margin-right: -2em;
   }
 
   &__link {
