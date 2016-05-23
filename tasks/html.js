@@ -26,12 +26,20 @@ function buildMetalsmith (callback) {
   metalsmith.source(config.paths.pages)
   metalsmith.destination(config.paths.build)
 
-  metalsmith.use(markdown({
-    typographer: true,
-    html: true
+  metalsmith.use(tags({
+    handle: 'recipient',
+    layout: __dirname + '/../src/partials/recipient.hbs',
+    sortBy: 'recipient',
+    path: 'recipients/:tag.html',
+    metadataKey: 'recipient'
   }));
 
-
+  metalsmith.use(tags({
+    handle: 'sender',
+    layout: __dirname + '/../src/partials/sender.hbs',
+    sortBy: 'sender',
+    path: 'sender/:tag.html'
+  }));
 
   // Plugins which don't play nice with the CLI
   metalsmith.use(default_values([
@@ -50,6 +58,12 @@ function buildMetalsmith (callback) {
       }
     }
   ]));
+
+  metalsmith.use(markdown({
+    typographer: true,
+    html: true
+  }));
+
 
   // For each plugin in foley.json using the CLI config
   Object.keys(plugins).forEach(function (key) {
@@ -72,20 +86,6 @@ function buildMetalsmith (callback) {
     return moment(context).format("h:mmA");
   });
 
-
-  metalsmith.use(tags({
-    handle: 'recipient',
-    layout: './src/partials/recipient.hbs',
-    sortBy: 'recipient',
-    path: 'recipient/:tag.html'
-  }));
-
-  metalsmith.use(tags({
-    handle: 'sender',
-    layout: './src/partials/recipient.hbs',
-    sortBy: 'sender',
-    path: 'sender/:tag.html'
-  }));
 
 
   // Rename file extensions

@@ -17,11 +17,11 @@ permalink: false
     <hr class="squiggle squiggle--6">
     <h2>Recipients</h2>
     <ul>
-      {{#letters}}
-        <li><a href="/{{path}}">{{recipient}}</a></li>
-      {{/letters}}
+      {{#each recipient}}
+        <li><a href="/recipients/{{urlSafe}}">{{@key}}</a></li>
+      {{/each}}
     </ul>
-    <hr class="squiggle squiggle--7">
+    <hr class="squiggle squiggle--5">
     <h2>Senders</h2>
     <ul>
       {{#letters}}
