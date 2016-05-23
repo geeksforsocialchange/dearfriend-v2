@@ -20,9 +20,18 @@ function buildMetalsmith (callback) {
   var default_values = require('metalsmith-default-values');
   var Handlebars    = require('handlebars');
   var moment        = require('moment');
+  var tags          = require('metalsmith-tags');
+  var markdown      = require('metalsmith-markdownit');
 
   metalsmith.source(config.paths.pages)
   metalsmith.destination(config.paths.build)
+
+  metalsmith.use(markdown({
+    typographer: true,
+    html: true
+  }));
+
+
 
   // Plugins which don't play nice with the CLI
   metalsmith.use(default_values([
@@ -62,6 +71,22 @@ function buildMetalsmith (callback) {
   Handlebars.registerHelper('timeFormat', function( context ) {
     return moment(context).format("h:mmA");
   });
+
+
+  metalsmith.use(tags({
+    handle: 'recipient',
+    layout: './src/partials/recipient.hbs',
+    sortBy: 'recipient',
+    path: 'recipient/:tag.html'
+  }));
+
+  metalsmith.use(tags({
+    handle: 'sender',
+    layout: './src/partials/recipient.hbs',
+    sortBy: 'sender',
+    path: 'sender/:tag.html'
+  }));
+
 
   // Rename file extensions
   metalsmith.use(rename([

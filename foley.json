@@ -20,25 +20,17 @@
   "metalsmith": {
     "plugins": {
       "metalsmith-drafts": true,
-      "metalsmith-markdownit": {
-         "typographer": true,
-         "html": true
-       },
-       "metalsmith-permalinks": {
-         "pattern": ":collection/:title"
-       },
-       "metalsmith-collections": {
-         "events": {
-           "pattern": "events/!(index).hbs",
-           "sortBy": "start"
-         },
-         "letters": {
-           "pattern": "letters/!(index).hbs"
-         }
-       },
-      "metalsmith-discover-helpers": {
-        "directory": "./src/helpers",
-        "pattern": "/\\.js$/"
+      "metalsmith-permalinks": {
+        "pattern": ":collection/:title"
+      },
+      "metalsmith-collections": {
+        "events": {
+          "pattern": "events/!(index).hbs",
+          "sortBy": "start"
+        },
+        "letters": {
+         "pattern": "letters/!(index).hbs"
+        }
       },
       "metalsmith-layouts": {
         "engine": "handlebars",
