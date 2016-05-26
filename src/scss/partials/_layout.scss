@@ -12,11 +12,12 @@ body {
   max-width: 1050px;
   @include mq($from: m)  {
     padding: 1em $medium-spacing;
-  }
-  @include mq($from: m) {
+    // Show the background image at top but not sides
     margin: 0 auto;
   }
   @include mq($from: 1150px) {
+    // Show background image all around
+    padding: $large-spacing;
     margin: 4em auto;
   }
 }
@@ -28,7 +29,9 @@ body {
       @include span(6);
     }
     @include mq($from: l) {
-      @include span(8);
+      @include span(64%);
+      @include suffix(7%);
+      // @include span(8);
     }
   }
   &__aside {
@@ -36,7 +39,8 @@ body {
       @include span(6 last);
     }
     @include mq($from: l) {
-      @include span(4 last);
+      @include span(29% last);
+      // @include span(4 last);
     }
   }
 }
