@@ -8,25 +8,12 @@ permalink: false
   <div class="grid__content">
     {{#letters}}
       <hr class="squiggle squiggle--2">
-      <p class="h3">Recieved on {{ dateFormat this.received}}</p>
-      <h2 class="h2">To <a href="/{{path}}">{{recipient}}, {{description}}.</a></h2>
-      <h3 class="h3">From {{sender}}</h3>
+      <p class="h3">Xth of Month, 2016</p>
+      <h2 class="h2">To <a class="no-underline" href="/{{path}}">{{recipient}}, {{description}}.</a></h2>
+      <h3>From {{sender}}. Recieved {{ dateFormat this.received}}.</h3>
     {{/letters}}
   </div>
   <div class="grid__aside">
-    <hr class="squiggle squiggle--6">
-    <h2>Recipients</h2>
-    <ul>
-      {{#each recipient}}
-        <li><a href="/recipients/{{urlSafe}}">{{@key}}</a></li>
-      {{/each}}
-    </ul>
-    <hr class="squiggle squiggle--5">
-    <h2>Senders</h2>
-    <ul>
-      {{#letters}}
-        <li>{{sender}}</li>
-      {{/letters}}
-    </ul>
+    {{> social}}
   </div>
 </div>

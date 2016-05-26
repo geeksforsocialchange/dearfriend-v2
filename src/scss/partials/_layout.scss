@@ -23,10 +23,11 @@ body {
 }
 
 .grid {
-  @include container(12);
+  @include container();
   &__content {
     @include mq(m, l) {
-      @include span(6);
+      @include span(48%);
+      @include suffix(4%);
     }
     @include mq($from: l) {
       @include span(64%);
@@ -36,7 +37,7 @@ body {
   }
   &__aside {
     @include mq(m, l) {
-      @include span(6 last);
+      @include span(48% last);
     }
     @include mq($from: l) {
       @include span(29% last);
