@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "Starting github pages deploy"
 
 # If any command errors, fail Travis
 set -e
@@ -20,16 +21,24 @@ THE_COMMIT=`git rev-parse HEAD`
 git config --global user.email "kim@alliscalm.net"
 git config --global user.name "Travis CI"
 
+echo "Running Gulp"
+
 # Run gulp
 gulp deploy --debug --production
 
+echo "Moving to created directory"
+
 # Move to created directory
 cd _dist
+
+echo "Creating CNAME file"
 
 # Create CNAME file and populate with domain depending on branch
 cat > CNAME << EOF
 $DOMAIN
 EOF
+
+echo "Pushing to repo"
 
 # Push to git by overriding previous commits
 # IMPORTANT: Supress messages so nothing appears in logs

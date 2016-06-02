@@ -1,0 +1,29 @@
+.letters {
+  &__title {
+
+  }
+  &__meta {
+    margin-bottom: 1em;
+  }
+  &__preview {
+
+  }
+  &__more {
+    font-size: $h2;
+    text-decoration: none;
+    background-image: url("/assets/img/icons/read-more.png");
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size: 0.9em;
+    padding-right: 46px;
+    &:hover {
+      background-image: url("/assets/img/icons/read-more-hover.png");
+    }
+  }
+}
+
+.letter {
+  &__description:first-letter {
+    text-transform: uppercase;
+  }
+}

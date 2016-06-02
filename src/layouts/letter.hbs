@@ -1,0 +1,42 @@
+{{> head}}
+  <h1 class="page-title">To <strong>{{recipient}}</strong>, {{description}}. From <strong>{{sender}}</strong>.</h1>
+  <div class="grid">
+    <div class="grid__content">
+      <hr class="squiggle squiggle--4">
+      <article class="letter container">
+        <div class="letter__scan">
+          <div id="js-lightgallery">
+            {{#images}}
+              <a href="./{{.}}">
+                <img src="./{{.}}" alt="Scan of the letter">
+              </a>
+            {{/images}}
+          </div>
+        </div>
+        <h2>Transcript</h2>
+        <div class="letter__transcription">
+          {{{contents}}}
+        </div>
+      </article>
+    </div>
+    <div class="grid__aside">
+      <div class="letter__meta">
+        <hr class="squiggle squiggle--6">
+        <h2>About {{recipient}}</h2>
+        <p class="letter__description">
+          {{description}}.
+          {{#if born}}
+            Born {{born}}{{#if died}}, died {{died}}{{/if}}.
+          {{/if}}
+          {{#if website}}
+            <a href="{{{website}}}">More information about {{recipient}}</a>.
+          {{/if}}
+        </p>
+        <p>
+          Received {{ dateFormat this.received }}.</br>
+          Published {{ dateFormat this.published }}.
+        </p>
+      </div>
+    </div>
+  </div>
+{{> foot}}
