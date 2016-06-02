@@ -10,7 +10,7 @@
           {{/images}}
         </div>
         <h2>Transcript</h2>
-        <div class="letter__transcription h3">
+        <div class="letter__transcription">
           {{{contents}}}
         </div>
       </article>
@@ -19,11 +19,11 @@
       <div class="letter__meta">
         <hr class="squiggle squiggle--6">
         <h2>About {{recipient}}</h2>
-        <p>
+        <p class="letter__description">
+          {{description}}.
           {{#if born}}
             Born {{born}}{{#if died}}, died {{died}}{{/if}}.
           {{/if}}
-          {{description}}.
           {{#if website}}
             <a href="{{{website}}}">More information about {{recipient}}</a>.
           {{/if}}

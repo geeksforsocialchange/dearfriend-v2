@@ -21,3 +21,9 @@
     }
   }
 }
+
+.letter {
+  &__description:first-letter {
+    text-transform: uppercase;
+  }
+}

@@ -62,6 +62,7 @@ $squiggle-scale: 0.5;
   }
 
   &--sponsor {
+    margin-top: 2em;
     background-image: url("/assets/img/squiggles/sponsor.png");
     height: 29px * $squiggle-scale;
   }
