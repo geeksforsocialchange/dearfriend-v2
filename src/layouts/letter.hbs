@@ -19,20 +19,18 @@
       <div class="letter__meta">
         <hr class="squiggle squiggle--6">
         <h2>About {{recipient}}</h2>
-        <p>{{description}}</p>
         <p>
           {{#if born}}
-            Born {{born}}{{#if died}}, died {{died}}{{/if}}
+            Born {{born}}{{#if died}}, died {{died}}{{/if}}.
           {{/if}}
-        </p>
-        <p>
+          {{description}}.
           {{#if website}}
-            <a href="{{{website}}}">More information about {{recipient}}</a>
+            <a href="{{{website}}}">More information about {{recipient}}</a>.
           {{/if}}
         </p>
         <p>
-          Received {{ dateFormat this.received }}</br>
-          Published {{ dateFormat this.published }}
+          Received {{ dateFormat this.received }}.</br>
+          Published {{ dateFormat this.published }}.
         </p>
       </div>
     </div>

@@ -1,6 +1,6 @@
 // Size for logo and click icon at mobile size
 $mobile-icons-size: 4em;
-$tablet-icons-size: 13em;
+$tablet-icons-size: 10em;
 $logo-aspect: 362 / 383;
 
 .logo {
@@ -27,6 +27,12 @@ $logo-aspect: 362 / 383;
 .page-title {
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+.header {
+  @include mq($from: m) {
+    margin-bottom: 2em;
+  }
 }
 
 .nav {
