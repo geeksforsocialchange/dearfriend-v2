@@ -5,9 +5,13 @@
       <hr class="squiggle squiggle--4">
       <article class="letter container">
         <div class="letter__scan">
-          {{#images}}
-            <img src="./{{.}}" alt="Scan of a letter to {{recipient}}, from {{sender}}">
-          {{/images}}
+          <div id="js-lightgallery">
+            {{#images}}
+              <a href="./{{.}}">
+                <img src="./{{.}}" alt="Scan of the letter">
+              </a>
+            {{/images}}
+          </div>
         </div>
         <h2>Transcript</h2>
         <div class="letter__transcription">

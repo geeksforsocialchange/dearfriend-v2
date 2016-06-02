@@ -12,3 +12,4 @@ FastClick.attach(document.body)
 
 // require('./test')
 require('./nav.js')
+require('./gallery.js')

@@ -73,6 +73,7 @@
     "fastclick": "1.0.6",
     "holderjs": "2.9.1",
     "jquery": "2.2.0",
+    "lightgallery": "^1.2.19",
     "lodash": "4.2.1",
     "moment": "^2.13.0"
   },
