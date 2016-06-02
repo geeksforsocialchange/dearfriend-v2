@@ -29,7 +29,9 @@
           "sortBy": "start"
         },
         "letters": {
-         "pattern": "letters/!(index).hbs"
+         "pattern": "letters/!(index).hbs",
+         "sortBy": "published",
+         "reverse": true
         }
       },
       "metalsmith-layouts": {

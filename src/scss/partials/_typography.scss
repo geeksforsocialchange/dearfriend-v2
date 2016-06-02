@@ -18,12 +18,12 @@ h2, .h2 {
   font-size: 1.777777778em; /* 32 / $base-font-size */
 }
 
-h3 {
+h3, .h3 {
   font-size: $base-font-size;
 }
 
-.h3 {
-  font-size: 1.25em
+h5, .h5 {
+  font-size: 0.777777778em;
 }
 
 a {

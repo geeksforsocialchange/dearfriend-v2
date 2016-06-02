@@ -9,7 +9,8 @@
             <img src="./{{.}}" alt="Scan of a letter to {{recipient}}, from {{sender}}">
           {{/images}}
         </div>
-        <div class="letter__transcription">
+        <h2>Transcript</h2>
+        <div class="letter__transcription h3">
           {{{contents}}}
         </div>
       </article>
@@ -26,8 +27,12 @@
         </p>
         <p>
           {{#if website}}
-            <a href="{{{website}}}">More information</a>
+            <a href="{{{website}}}">More information about {{recipient}}</a>
           {{/if}}
+        </p>
+        <p>
+          Received {{ dateFormat this.received }}</br>
+          Published {{ dateFormat this.published }}
         </p>
       </div>
     </div>

@@ -7,6 +7,8 @@ website: https://en.wikipedia.org/wiki/Ellen_Wilkinson
 born: 1891
 died: 1947
 received: 2016-03-06
+published: 2016-06-01
+draft: false
 images:
   - 1.jpg
 ---

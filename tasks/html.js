@@ -48,6 +48,7 @@ function buildMetalsmith (callback) {
       defaults: {
           layout: 'letter.hbs',
           collection: 'letters',
+          draft: true,
       }
     },
     {

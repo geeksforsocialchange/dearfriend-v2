@@ -7,10 +7,16 @@ permalink: false
 <div class="grid">
   <div class="grid__content">
     {{#letters}}
-      <hr class="squiggle squiggle--2">
-      <p class="h3">Xth of Month, 2016</p>
-      <h2 class="h2">To <a class="no-underline" href="/{{path}}">{{recipient}}, {{description}}.</a></h2>
-      <h3>From {{sender}}. Recieved {{ dateFormat this.received}}.</h3>
+      <div class="letters">
+        <hr class="squiggle squiggle--2">
+        <h2 class="h2 letters__title">Dear <a class="no-underline" href="/{{path}}"><strong>{{recipient}}</strong>, {{description}}.</a></h2>
+        <p class="h3 letters__meta">
+          Published {{ dateFormat this.published }}<br>
+          From {{sender}}
+        </h3>
+        <a href="/{{path}}"><img class="letters__preview" src="/{{path}}/preview.jpg" alt="Letter to {{recipient}} from {{sender}}"></a>
+        <p class="h3"><a class="letters__more" href="/{{path}}">Read On</a></p>
+      </div>
     {{/letters}}
   </div>
   <div class="grid__aside">

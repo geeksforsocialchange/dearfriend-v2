@@ -6,6 +6,8 @@ description: teacher and founder of Chorleywood School
 born: 1885
 died: 1970
 received: 2016-02-23
+published: 2016-06-02
+draft: false
 images:
   - 1.jpg
   - 2.jpg

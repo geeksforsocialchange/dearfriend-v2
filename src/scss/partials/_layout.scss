@@ -30,8 +30,8 @@ body {
       @include suffix(4%);
     }
     @include mq($from: l) {
-      @include span(64%);
-      @include suffix(7%);
+      @include span(68%);
+      @include suffix(3%);
       // @include span(8);
     }
   }

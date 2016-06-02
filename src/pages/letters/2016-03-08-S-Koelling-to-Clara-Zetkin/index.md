@@ -7,7 +7,10 @@ website: https://en.wikipedia.org/wiki/Clara_Zetkin
 born: 1857
 died: 1933
 received: 2016-03-08
-
+published: 2016-06-03
+draft: false
+images:
+  - 1.jpg
 ---
 
 Dear Clara Zetkin,
