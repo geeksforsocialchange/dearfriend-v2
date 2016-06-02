@@ -1,6 +1,6 @@
 ---
 title: "Dear Friend at Manchester Histories Festival Celebration Day"
-location: "Manchester Town Hall"
+location: "Manchester Central Library"
 description: Manchester Histories Festival Celebration Day
 start: 2016-06-11T11:00
 end: 2016-06-11T12:00
