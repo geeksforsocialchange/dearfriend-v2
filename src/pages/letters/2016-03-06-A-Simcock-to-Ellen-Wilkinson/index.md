@@ -2,7 +2,7 @@
 sender: Andrew Simcock
 sender twitter: andrew4didsbury
 recipient: Ellen Wilkinson
-description: leader of the Jarrow march and UK Education Minister, 1954-47
+description: leader of the Jarrow march and UK Education Minister, 1945-47
 website: https://en.wikipedia.org/wiki/Ellen_Wilkinson
 born: 1891
 died: 1947
