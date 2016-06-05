@@ -7,7 +7,10 @@ website: https://en.wikipedia.org/wiki/Jill_Phipps
 born: 1964
 died: 1995
 received: 2016-03-08
-
+draft: false
+published: 2016-06-05
+images:
+  - 1.jpg
 ---
 
 Dear Jill Phipps (age 31 at death)
