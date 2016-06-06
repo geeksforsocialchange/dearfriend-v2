@@ -6,6 +6,10 @@ website: https://en.wikipedia.org/wiki/Nina_Simone
 born: 1933
 died: 2003
 received: 2016-03-08
+published: 2016-06-06
+draft: false
+images:
+  - 1.jpg
 
 ---
 
