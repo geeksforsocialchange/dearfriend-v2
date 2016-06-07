@@ -7,8 +7,11 @@ website: https://en.wikipedia.org/wiki/Ada_Nield_Chew
 born: 1870
 died: 1945
 received: 2016-03-09
-
-template: letters.hbs
+published: 2016-06-07
+draft: false
+images:
+  - 1.jpg
+  - 2.jpg
 ---
 
 
