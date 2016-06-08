@@ -6,6 +6,8 @@ description: social worker, author, founder of the Child Migrants Trust
 website: https://en.wikipedia.org/wiki/Margaret_Humphreys
 born: 1944
 received: 2016-02-23
+published: 2016-06-08
+draft: false
 images:
   - 1.jpg
 ---
