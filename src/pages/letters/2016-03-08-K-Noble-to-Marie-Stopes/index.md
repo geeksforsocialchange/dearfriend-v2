@@ -6,6 +6,7 @@ website: https://en.wikipedia.org/wiki/Marie_Stopes
 born: 1880
 died: 1958
 received: 2016-03-08
+published: 2016-06-09
 draft: false
 images: 
  - 1.jpg
