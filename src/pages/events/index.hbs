@@ -1,6 +1,18 @@
 ---
-title: Events
-description: test
-layout: events.hbs
+title: Come to one of our events, write a letter to your heroine, and help correct the balance of history.
+description: Workshops and events
+layout: default.hbs
 permalink: false
 ---
+
+<div class="grid">
+  <div class="grid__content">
+    {{#events}}
+      <hr class="squiggle squiggle--2">
+      {{{contents}}}
+    {{/events}}
+  </div>
+  <div class="grid__aside">
+    {{> social}}
+  </div>
+</div>

@@ -10,6 +10,23 @@
     <script src="https://use.typekit.net/ojz0uvt.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
+    <meta property="og:title" content="Dear Friend">
+
+    {{#if images}}
+      <meta property="og:description" content="A letter to {{recipient}}, {{description}}. From {{sender}}">
+      <meta property="og:image" content="http://dearfriend.org.uk/{{path}}/1.jpg">
+    {{else}}
+      <meta property="og:description" content="A letter-writing project celebrating women in public life and struggles for liberation.">
+      <meta property="og:image" content="http://dearfriend.org.uk/assets/img/logos/df.png">
+    {{/if}}
+
     <link rel="stylesheet" href="/assets/css/site.css" />
+    <link rel="icon" href="/assets/img/favicon.png" />
+    <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png" />
+
   </head>
   <body>
+
+    <div class="main">
+      {{> header}}
+      <hr class="squiggle squiggle--1 js__hide-if-nav-visible">

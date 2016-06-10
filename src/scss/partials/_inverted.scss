@@ -1,0 +1,67 @@
+@mixin inverted {
+  background-color: $primary;
+  color: white;
+  position: relative;
+  overflow: visible !important;
+  padding: 0.1em $small-spacing $small-spacing;
+  margin-top: 40px;
+  margin-right: -$small-spacing;
+  margin-bottom: 40px;
+  margin-left: -$small-spacing;
+  @include mq($from: m) {
+    padding-left: $medium-spacing;
+    padding-right: $medium-spacing;
+    margin-left: -$medium-spacing;
+    margin-right: -$medium-spacing;
+  }
+  @include mq($from: 1150px) {
+    padding-left: $large-spacing;
+    padding-right: $large-spacing;
+    margin-left: -$large-spacing;
+    margin-right: -$large-spacing;
+  }
+
+  &__link {
+    color: white;
+  }
+
+  &::before, &::after {
+    left: 0;
+    content: " ";
+    width: 100%;
+    position: absolute;
+    height: 20px;
+  }
+
+  &::before {
+    top: 0;
+    margin-top: -20px;
+    background-image: url("/assets/img/boxes/box-sm-top.png");
+    @include mq($from: m) {
+      background-image: url("/assets/img/boxes/box-lg-top.png");
+      height: 35px;
+      margin-top: -35px;
+    }
+  }
+
+  &::after {
+    bottom: 0;
+    margin-bottom: -20px;
+    background-image: url("/assets/img/boxes/box-sm-btm.png");
+    @include mq($from: m) {
+      background-image: url("/assets/img/boxes/box-lg-btm.png");
+      height: 45px;
+      margin-bottom: -45px;
+    }
+  }
+}
+
+.inverted {
+  @include inverted;
+}
+
+.inverted--if-not-large {
+  @include mq($until: l) {
+    @include inverted;
+  }
+}

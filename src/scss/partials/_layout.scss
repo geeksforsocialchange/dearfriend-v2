@@ -1,0 +1,47 @@
+body {
+  @include mq($from: l) {
+    background: url("/assets/img/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
+
+.main {
+  padding: 1em $small-spacing 5em;
+  background-color: $background;
+  max-width: 1050px;
+  @include mq($from: m)  {
+    padding: 1em $medium-spacing;
+    // Show the background image at top but not sides
+    margin: 0 auto;
+  }
+  @include mq($from: 1150px) {
+    // Show background image all around
+    padding: $large-spacing;
+    margin: 4em auto;
+  }
+}
+
+.grid {
+  @include container();
+  &__content {
+    @include mq(m, l) {
+      @include span(48%);
+      @include suffix(4%);
+    }
+    @include mq($from: l) {
+      @include span(68%);
+      @include suffix(3%);
+      // @include span(8);
+    }
+  }
+  &__aside {
+    @include mq(m, l) {
+      @include span(48% last);
+    }
+    @include mq($from: l) {
+      @include span(29% last);
+      // @include span(4 last);
+    }
+  }
+}

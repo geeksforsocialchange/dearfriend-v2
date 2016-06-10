@@ -2,6 +2,8 @@
 
 Code base for Dear Friend using [Phil Lennon's](http://iampjl.co.uk) fantastic [Foley](http://github.com/fephil/foley)
 
+[![Build Status](https://travis-ci.org/kimadactyl/dearfriend-v2.svg?branch=master)](https://travis-ci.org/kimadactyl/dearfriend-v2)
+
 ## Install
 
 * Install Node 4 LTS or 5 stable (preferred),

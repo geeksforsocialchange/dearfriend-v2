@@ -2,11 +2,14 @@
 
 var Holder = require('holderjs') //eslint-disable-line
 var FastClick = require('fastclick')
+// var moment = require('moment')
 // var sortBy = require('lodash/collection/sortBy')
 
 FastClick.attach(document.body)
 
-console.log('testing if jquery is loaded globally:')
-console.log($)
+// console.log('testing if jquery is loaded globally:')
+// console.log($)
 
-require('./test')
+// require('./test')
+require('./nav.js')
+require('./gallery.js')

@@ -1,23 +1,107 @@
-header {
-  margin: 1em 0 0 0;
-  text-align: center;
-}
+// Size for logo and click icon at mobile size
+$mobile-icons-size: 4em;
+$tablet-icons-size: 10em;
+$logo-aspect: 362 / 383;
 
 .logo {
-  height: 250px
+  text-indent: -9999px;
+  display: inline-block;
+  vertical-align: top;
+  transition-duration: $default-animation-time;
+  background-size: contain;
+  background-image: url("/assets/img/logos/df_small.png");
+  background-repeat: no-repeat;
+  width: $mobile-icons-size * $logo-aspect;
+  height: $mobile-icons-size;
+  @include mq($from: m) {
+    background-image: url("/assets/img/logos/df.png");
+    width: $tablet-icons-size * $logo-aspect;
+    height: $tablet-icons-size;
+  }
+  &:hover {
+    opacity: 0.5;
+    transition-duration: $default-animation-time;
+  }
 }
 
 .page-title {
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 
-.nav__list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.header {
+  @include mq($from: m) {
+    margin-bottom: 2em;
+  }
 }
 
-.nav__item {
-  display: inline-block;
-  margin: 1em;
+.nav {
+
+  @include mq($until: l) {
+    display: none;
+  }
+
+  @include mq($from: l) {
+    // Stop the JS hiding this if the screen size changes
+    display: inline-block !important;
+    float: right;
+    margin-top: $tablet-icons-size / 2;
+  }
+
+  &__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  &__item {
+    margin: 1em;
+    &--first {
+      margin-top: 0.25em;
+    }
+    &--last {
+      margin-bottom: 0.25em;
+    }
+    @include mq($from: m) {
+      display: inline-block;
+      margin: 0.5em 0.5em;
+    }
+  }
+
+  &__link {
+    @include mq($until: l) {
+      color: white;
+    }
+
+    // Space out the underlines a bit
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    @include mq($from: l) {
+      border-bottom-color: $primary;
+    }
+    display: inline-block;
+    &:hover {
+      border-bottom: 2px solid $primary-50;
+    }
+  }
+
+  &__toggle {
+    height: $mobile-icons-size;
+    width: $mobile-icons-size;
+    float: right;
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("/assets/img/icons/menu.png");
+    transition-duration: $default-animation-time;
+    &:hover {
+      opacity: 0.5;
+      transition-duration: $default-animation-time;
+    }
+    @include mq($from: l) {
+      display: none;
+    }
+  }
+
 }

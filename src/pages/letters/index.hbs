@@ -1,0 +1,25 @@
+---
+title: "Letters"
+layout: default.hbs
+permalink: false
+---
+
+<div class="grid">
+  <div class="grid__content">
+    {{#letters}}
+      <div class="letters">
+        <hr class="squiggle squiggle--2">
+        <h2 class="h2 letters__title">Dear <a class="no-underline" href="/{{path}}"><strong>{{recipient}}</strong>, {{description}}.</a></h2>
+        <p class="h3 letters__meta">
+          Published {{ dateFormat this.published }}<br>
+          From {{sender}}
+        </p>
+        <a href="/{{path}}"><img class="letters__preview" src="/{{path}}/preview.jpg" alt="Letter to {{recipient}} from {{sender}}"></a>
+        <p><a class="letters__more" href="/{{path}}">Read on</a></p>
+      </div>
+    {{/letters}}
+  </div>
+  <div class="grid__aside">
+    {{> social}}
+  </div>
+</div>
