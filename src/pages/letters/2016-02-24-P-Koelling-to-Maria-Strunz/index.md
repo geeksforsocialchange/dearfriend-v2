@@ -5,7 +5,7 @@ description: teacher and lecturer
 received: 2016-02-24
 published: 2016-06-10
 draft: false
-image: 
+images: 
   - 1.jpg
 ---
 To My Daughter
