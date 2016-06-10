@@ -3,7 +3,10 @@ sender: Petra Kölling
 recipient: Maria Strunz
 description: teacher and lecturer
 received: 2016-02-24
-
+published: 2016-06-10
+draft: false
+image: 
+  - 1.jpg
 ---
 To My Daughter
 
