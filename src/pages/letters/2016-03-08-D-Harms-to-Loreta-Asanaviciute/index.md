@@ -7,7 +7,11 @@ website: http://www3.lrs.lt/pls/inter/w5_show?p_d=49557&p_r=4110&p_k=2
 born: 1967
 died: 1991
 received: 2016-03-08
-
+published: 2016-06-11
+draft: false
+images:
+  - 1.jpg
+  - 2.jpg
 ---
 
 Dear Loreta,
