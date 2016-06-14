@@ -3,6 +3,10 @@ sender: Kathy Noble
 recipient: Miss Jacobs & Miss Downing
 description: teachers (Junior school, grammar school)
 received: 2016-03-08
+published: 2016-06-13
+draft: false
+images:
+  - 1.jpg
 ---
 
 Dear Friend,

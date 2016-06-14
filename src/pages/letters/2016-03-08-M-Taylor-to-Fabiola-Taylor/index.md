@@ -3,7 +3,12 @@ sender: Marguerite Taylor
 recipient: Fabiola Taylor
 description:
 received: 2016-03-08
-
+published: 2016-06-12
+draft: false
+images:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
 ---
 
 Mum,
