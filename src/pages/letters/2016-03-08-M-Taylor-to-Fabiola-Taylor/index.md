@@ -1,7 +1,7 @@
 ---
 sender: Marguerite Taylor
 recipient: Fabiola Taylor
-description:
+description: mother
 received: 2016-03-08
 published: 2016-06-12
 draft: false
