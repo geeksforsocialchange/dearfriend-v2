@@ -1,14 +1,14 @@
 ---
 sender: anonymous
 sender-twitter: 
-recipient: anonymous
-description: 
+recipient: Jo
+description: friend
 website: 
 born: 
 died: 
 received: 2016-03-12
-published:
-draft:
+published: 2016-06-16
+draft: false
 images:
     -1.jpg
 ---
