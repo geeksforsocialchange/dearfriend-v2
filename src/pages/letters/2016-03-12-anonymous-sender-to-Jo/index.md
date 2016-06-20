@@ -10,7 +10,7 @@ received: 2016-03-12
 published: 2016-06-16
 draft: false
 images:
-    -1.jpg
+    - 1.jpg
 ---
 
 Hi Jo, 
