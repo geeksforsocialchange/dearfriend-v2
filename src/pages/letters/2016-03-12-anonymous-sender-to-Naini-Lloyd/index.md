@@ -1,5 +1,5 @@
 ---
-sender: Gareth Parkinson
+sender: anonymous
 sender-twitter: 
 recipient: Naini Lloyd
 description: grandmother
