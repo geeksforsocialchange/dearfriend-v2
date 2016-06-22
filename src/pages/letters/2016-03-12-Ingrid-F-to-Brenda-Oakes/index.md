@@ -7,7 +7,7 @@ website: http://www.manpg.co.uk/about_us
 born: 1930
 died: 2014
 received: 2016-03-12
-published: 2016-06-21
+published: 2016-06-22
 draft: false
 images:
   - 1.jpg
