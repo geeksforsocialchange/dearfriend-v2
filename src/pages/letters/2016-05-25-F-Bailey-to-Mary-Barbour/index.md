@@ -2,7 +2,7 @@
 sender: Freja Bailey
 sender twitter: 
 recipient: Mary Barbour
-description: Scottish political activist, local councilor, and magistrate
+description: Scottish political activist, local councillor, and magistrate
 website: https://en.wikipedia.org/wiki/Mary_Barbour
 born: 1875
 died: 1958
