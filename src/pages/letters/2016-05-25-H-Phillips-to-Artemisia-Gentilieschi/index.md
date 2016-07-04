@@ -12,6 +12,7 @@ draft: false
 images:
   - 1.jpg
 ---
+
 Artemisia Gentilieschi,
 
 Your work is so beautiful and I'm glad that you existed. As well as your amazing technique on the Baroque scene, what you had to go through during a rape trial when you were tortured to prove you were not lying... resonates as something they would probably do now if they were allowed, instead they have mental and psychological torture. 
