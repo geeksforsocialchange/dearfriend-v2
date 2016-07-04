@@ -7,7 +7,7 @@ website: https://en.wikipedia.org/wiki/Artemisia_Gentileschi
 born: 1593
 died: 1656
 received: 2016-05-25
-published:2016-07-04
+published: 2016-07-04
 draft: false
 images:
   - 1.jpg
