@@ -1,6 +1,5 @@
 ---
 sender: Hebe Grace Phillips
-sender-twitter: 
 recipient: Artemisia Gentileschi
 description: painter
 website: https://en.wikipedia.org/wiki/Artemisia_Gentileschi
