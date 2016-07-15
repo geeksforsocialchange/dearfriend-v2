@@ -7,8 +7,8 @@ website:
 born:
 died:
 received: 2016-06-04
-published:
-draft: true
+published: 2016-07-15
+draft: false
 images:
   - 1.jpg
 ---
