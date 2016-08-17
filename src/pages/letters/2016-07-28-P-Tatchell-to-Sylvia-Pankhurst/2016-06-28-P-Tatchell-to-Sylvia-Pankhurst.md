@@ -1,8 +1,8 @@
 ---
 sender: Peter Tatchell
-sender twitter: @petertatchell
+sender-twitter: "@petertatchell"
 recipient: Sylvia Pankhurst
-description: suffragette, anti-fascist campaigner, internationalist
+description: "suffragette, anti-fascist campaigner, internationalist"
 website: https://en.wikipedia.org/wiki/Sylvia_Pankhurst
 born: 1882
 died: 1960
