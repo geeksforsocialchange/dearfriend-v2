@@ -1,7 +1,7 @@
 ---
 sender: Bernadette Jordan
 recipient: Mary Wollstonecraft
-description: painter
+description: writer, philosopher, advocate of women's rights
 website: https://en.wikipedia.org/wiki/Mary_Wollstonecraft
 born: 1759
 died: 1797
