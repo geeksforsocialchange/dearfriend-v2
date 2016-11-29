@@ -1,10 +1,12 @@
 ---
 title: "Dear Friend Exhibition"
-location: "Partisan Collective, 3Space Manchester, Mount Street, Manchester M2 3NN"
+location: "Nexus Art Cafe, 2 Dale Street, Manchester, M1 1JW"
 description: "Exhibition"
-start: 2016-08-20T12:00
-end: 2016-08-21T19:00
+start: 2016-12-15T11:00
+end: 2017-01-15T18:30
 ---
-Dear Friend is a letter writing project that explores the roles women played in all struggles of liberation. We are thrilled to announce Dear Friend's first exhibition of letters to amazing women. Come by the gallery and read letters to Ellen Wilkinson, Barbara Castle, Phyllis Monk, Clara Zetkin and many more. Let's celebrate all kinds of women, from politicians and artists, to scientist, friends, mothers, grandmothers, and activists.
+Dear Friend is a letter writing project that explores the roles women played in all struggles of liberation. We are thrilled to announce Dear Friend's exhibition of letters to amazing women in Nexus Art Cafe. Come by the Cafe and read letters to Ellen Wilkinson, Barbara Castle, Phyllis Monk, Clara Zetkin and many more. Let's celebrate all kinds of women, from politicians and artists, to scientist, friends, mothers, grandmothers, and activists.
 
-This event is free.
+There is a chance to write your own letter and post it in the post box provided.
+
+The exhibition is free and in the Nook area of Nexus Art Cafe.
