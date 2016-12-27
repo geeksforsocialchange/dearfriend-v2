@@ -8,7 +8,7 @@ born:
 died:
 received: 2016-05-15
 published: 2016-12-27
-draft: true
+draft: false
 images:
   - 1.jpg
   - 2.jpg
