@@ -10,7 +10,7 @@ Women writers have existed since antiquity, many creating works under their own 
 
 The workshop will be preceded by an informal tour of the House, exploring the time in which Elizabeth Gaskell lived, and how she and her contemporaries matched gender expectations.
 
-Free workshop - usual House admission charges apply. £4.95 adult, £3.95 cpncessions. Tickets last for a year so you can keep visiting!
+Free workshop - usual House admission charges apply. £4.95 adult, £3.95 concessions. Tickets last for a year so you can keep visiting!
 
 Please email angela@elizabethgaskellhouse.co.uk to reserve your place.
 
