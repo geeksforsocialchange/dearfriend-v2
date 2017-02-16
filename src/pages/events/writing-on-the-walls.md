@@ -7,3 +7,11 @@ end: 2017-03-05T15:30
 multiple_days: false
 ---
 Women writers have existed since antiquity, many creating works under their own names, such as Gormflaith ingen Flann Sinna, Juliana Berners, or Julian of Norwich. Granted, later on, many had to hide the fact that they were women in order to be published, something still prevalent today. So let’s celebrate all literary women, from Gwerful Mechain, a 15th century Welsh poet, to Mary Wollstonecraft-Shelley, a 19th century novelist, to JK Rowling, a 21st century writer. Let’s write letters to the women who would not be silenced, who told stories, poems, and histories and who may not be remembered the way they deserve. Come to the workshop, learn more about Manchester's literary women, and write a letter that helps correct the balance of history.
+
+This workshop is part of the Wonder Women festival, and is timed to be near International Women's Day.
+
+Free workshop - usual House admission charges apply. £4.95 adult, £3.95 concessions. Tickets last for a year so you can keep visiting!
+
+Booking advised but not essential.
+
+Email angela@elizabethgaskellhouse.co.uk to reserve your place.
