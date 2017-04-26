@@ -1,11 +1,11 @@
-----
+---
 title: "Dear Friend and Manchester Geek Girls: Women in STEM and Medicine"
 location: "Autotrader, 1 Tony Wilson Place, First Street, Manchester, M15 4FN"
 description: "Workshop"
 start: 2017-05-14T14:00
 end: 2017-05-14T16:00
 multiple_days: false
-----
+---
 
 For this workshop, we are teaming up with [Manchester Geek Girls](https://manchestergirlgeeks.com/) who have invited us to one of their amazing Tea Parties.
 
