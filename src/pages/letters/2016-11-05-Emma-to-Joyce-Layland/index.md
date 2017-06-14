@@ -7,7 +7,7 @@ born:
 died:
 received: 2017-04-07
 published: 2017-06-14
-draft: true
+draft: false
 images:
   - 1.jpg
 ---
