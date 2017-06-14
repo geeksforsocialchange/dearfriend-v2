@@ -1,9 +1,9 @@
 ---
 title: "Dear Friend and Manchester Geek Girls: Women in STEM and Medicine"
-location: "Autotrader, 1 Tony Wilson Place, First Street, Manchester, M15 4FN"
+location: "MadLab, 36-40 Edge St, Manchester M4 1HN"
 description: "Workshop"
-start: 2017-05-14T14:00
-end: 2017-05-14T16:00
+start: 2017-06-25T14:00
+end: 2017-06-25T16:00
 multiple_days: false
 ---
 
